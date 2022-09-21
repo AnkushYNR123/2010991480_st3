@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, monospace;
+}
+
+span {
+    border: 3px solid rgb(206, 226, 24);
+    color: aqua;
+    /* font-size: 25px */
+}
+
+body {
+    /* background-image: url(./images/backgroud.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+#enter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    justify-content: center;
+    color: rgb(221, 222, 167);
+    background: rgb(104, 101, 104);
+    border-width: 43px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inp {
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    height: 40px;
+    margin-bottom: 2px;
+    border-radius: 100px;
+    border-width: 5px;
+    background-color: rgb(247, 252, 250);
+}
+
+#planets {
+    display: inline-flex;
+}
+
+#p {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 4px;
+    /* border-width: 23px; */
+    /* border: 2px solid gray; */
+    color: rgb(151, 154, 123);
+}
+
+#ear:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    /* animation-duration: 0s;  */
+    animation-play-state: paused;
+}
+
+#ear {
+    /* z-index: -1; */
+    height: 230px;
+    /* border: 5px solid rgb(101, 88, 115); */
+    border-radius: 100%;
+    position: relative;
+}
+
+#jup:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#jup {
+    height: 230px;
+    /* border: 5px solid rgb(101, 88, 115); */
+    border-radius: 100%;
+    position: relative;
+}
+
+#mar:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#mar {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#mer:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#mer {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#nep:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#nep {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#plu:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#plu {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#ura:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#ura {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#sat:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#sat {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#ven:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#ven {
+    height: 230px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#sun:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+#sun {
+    height: 230px;
+    border-radius: 100%;
+    box-decoration-break: clone;
+    position: relative;
+}
